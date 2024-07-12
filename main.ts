@@ -40,7 +40,7 @@ basic.forever(function () {
         if (switchable == 1) {
             if (ALIVE == 0) {
                 ALIVE = 1
-                sound_level = 0
+                sound_level = 100
             } else {
                 ALIVE = 0
             }
